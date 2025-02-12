@@ -77,7 +77,7 @@ const Contact = () => {
         <input type="checkbox" id="terms" name="termsAccepted" checked={formData.termsAccepted} onChange={handleChange} required className="mr-2" />
         <label htmlFor="terms" className="text-sm">I accept the terms</label>
       </div>
-      <button type="submit" className="mt-6 w-full bg-purple-600 hover:bg-purple-700 text-white py-2 rounded font-bold focus:ring-2 focus:ring-purple-500">Submit</button>
+      <button type="submit" className="mt-6 w-[170px] bg-purple-600 align-middle hover:bg-purple-700 text-white py-2 rounded font-bold focus:ring-2 focus:ring-purple-500">Submit</button>
     </form>
   );
 };
