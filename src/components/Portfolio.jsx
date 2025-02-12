@@ -1,4 +1,7 @@
 import React from "react";
+import AhuseImg from '../assets/project.png'
+import DashboardImg from '../assets/project2.png'
+import EasyRentImg from '../assets/project3.png'
 
 const portfolioItems = [
   {
@@ -6,7 +9,7 @@ const portfolioItems = [
     title: "Ahuse",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-    imageUrl: "/path-to-image1.jpg",
+    imageUrl:  AhuseImg,
     link: "https://dribbble.com/",
   },
   {
@@ -14,7 +17,7 @@ const portfolioItems = [
     title: "App Dashboard",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-    imageUrl: "/path-to-image2.jpg",
+    imageUrl: DashboardImg,
     link: "https://dribbble.com/",
   },
   {
@@ -22,7 +25,7 @@ const portfolioItems = [
     title: "Easy Rent",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-    imageUrl: "/path-to-image3.jpg",
+    imageUrl: EasyRentImg,
     link: "https://dribbble.com/",
   },
 ];
