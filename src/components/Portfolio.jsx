@@ -1,11 +1,10 @@
-
-
 import React from "react";
 import { ArrowUpRight } from "lucide-react"; // Import Lucide React arrow
 import Button from "./Button";
 import AhuseImg from "../assets/Project.png";
 import DashboardImg from '../assets/project2.png'
 import EasyRentImg from '../assets/project3.png'
+import DribbleIcon from '../assets/Social icon.png'
 
 const portfolioItems = [
   {
@@ -47,21 +46,15 @@ const Portfolio = () => {
           </div>
 
           {/* Visit My Dribbble Button */}
-          <Button
-            asChild
-            className="bg-pink-600 text-white font-medium px-6 py-3 rounded-lg hover:bg-pink-700 transition"
-          >
-            <a
-              href="https://dribbble.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Visit my Dribbble profile"
-              className="flex items-center gap-2"
-            >
-              Visit My Dribbble
-              <ArrowUpRight className="w-5 h-5" /> {/* Using Lucide React Arrow */}
-            </a>
-          </Button>
+          <a
+      href="https://dribbble.com/your-profile"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-3 bg-[#ea4c89] text-white font-bold py-3 px-6 rounded-xl shadow-md transition-all hover:bg-[#d4417a] hover:scale-105"
+    >
+      <img src={ DribbleIcon} alt="Dribbble Icon" className="w-6 h-6" />
+      Visit My Dribbble
+    </a>
         </div>
 
         {/* Portfolio Cards */}
@@ -86,7 +79,7 @@ const Portfolio = () => {
                   href={item.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-flex items-center text-indigo-600 font-medium hover:underline transition group"
+                  className="mt-4 inline-flex items-center  font-medium hover:underline transition group"
                   aria-label={`View ${item.title} on Dribbble`}
                 >
                   View In Dribbble

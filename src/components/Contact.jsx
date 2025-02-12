@@ -59,7 +59,7 @@ const Contact = () => {
       <div className="mt-4">
         <label htmlFor="topic" className="contact-label">Choose a Topic</label>
         <select id="topic" name="topic" value={formData.topic} onChange={handleChange} required 
-        className="w-full p-2 rounded border border-gray-700 focus:ring-2 focus:ring-purple-500">
+        className=" nav-link w-full p-2 rounded border-purple-600 border focus:ring-2 focus:ring-purple-500">
           <option value="">Select one...</option>
           <option value="general">General Inquiry</option>
           <option value="support">Support</option>
@@ -70,12 +70,12 @@ const Contact = () => {
       <div className="mt-4">
         <label htmlFor="message" className="contact-label">Message</label>
         <textarea id="message" name="message" value={formData.message} onChange={handleChange} required rows="4" 
-         className="w-full p-2 rounded  border border-gray-700 focus:ring-2 focus:ring-purple-500"></textarea>
+         className=" nav-link w-full p-2 rounded border-purple-600 border focus:ring-2 focus:ring-purple-500"></textarea>
       </div>
 
       <div className="mt-4 flex items-center">
         <input type="checkbox" id="terms" name="termsAccepted" checked={formData.termsAccepted} onChange={handleChange} required className="mr-2" />
-        <label htmlFor="terms" className="text-sm">I accept the terms</label>
+        <label htmlFor="terms" className="contact-label">I accept the terms</label>
       </div>
      
       <div className="mt-6 flex justify-center">
