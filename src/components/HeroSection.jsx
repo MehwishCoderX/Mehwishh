@@ -1,11 +1,10 @@
 import React from 'react'
 import HeroImg from '../assets/Hero-img.png'
-
-
+import Button from './Button';
 export default function HeroSection() {
     return (
       <section className="flex flex-col md:flex-row items-center justify-between px-8 md:px-16 py-16 bg-[#F5F9FF]">
-        <div className="max-w-lg">
+        <div className="max-w-lg flex-col justify-between">
           <p className="text-gray-700 font-semibold">Hey, I am John</p>
           <h1 className="text-4xl font-bold text-gray-900 mt-2 leading-tight">
             I create <span className="text-purple-600">product design</span> <br />
@@ -15,9 +14,12 @@ export default function HeroSection() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
             enim in eros elementum tristique. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           </p>
-          <button className="mt-6 px-6 py-3 bg-purple-600 text-white font-semibold rounded-lg shadow-lg hover:bg-purple-700 transition">
-            Get In Touch
-          </button>
+          <Button
+        variant="filled"
+        className="text-purple-600 border-purple-600 hover:bg-purple-600 hover:text-white"
+      >
+        Get In Touch
+      </Button>
         </div>
   
 

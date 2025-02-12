@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto";
+}
+
+.nav-link
+{
+    @apply block  font-normal hover:text-purple-600 text-xl
+}
