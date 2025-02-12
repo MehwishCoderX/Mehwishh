@@ -1,8 +1,11 @@
+import DianneImg from '../assets/Testimonial1.png'
+import KristianImg from '../assets/Testimonial 2.png'
+import kathrynImg from '../assets/Testimonial3.png'
 const testimonials = [
     {
       name: "Dianne Russell",
       company: "Starbucks",
-      image: "https://randomuser.me/api/portraits/women/44.jpg", // Replace with actual image
+      image: DianneImg, 
       rating: 5,
       review:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.",
@@ -10,7 +13,7 @@ const testimonials = [
     {
       name: "Kristin Watson",
       company: "Louis Vuitton",
-      image: "https://randomuser.me/api/portraits/men/45.jpg", // Replace with actual image
+      image: KristianImg,
       rating: 5,
       review:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.",
@@ -18,7 +21,7 @@ const testimonials = [
     {
       name: "Kathryn Murphy",
       company: "McDonald's",
-      image: "https://randomuser.me/api/portraits/men/46.jpg", // Replace with actual image
+      image: kathrynImg,
       rating: 5,
       review:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.",

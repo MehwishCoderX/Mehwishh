@@ -25,9 +25,9 @@ const Contact = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-lg mx-auto p-6  rounded-lg ">
-      <h2 className="text-2xl font-bold text-center mb-4">Contact Me</h2>
-      <p className="text-center text-gray-400 mb-6">Get in touch by filling out the form below.</p>
+    <form onSubmit={handleSubmit} className="max-w-lg mx-auto p-10  rounded-lg ">
+      <h2 className="text-2xl font-bold text-center mb-4">Contact me</h2>
+      <p className="text-center text-[#1C1E53] mb-10">Lorem ipsum dolor sit amet consectetur adipisicing ..</p>
       
       <div className="grid grid-cols-2 gap-4">
         <div>
