@@ -3,9 +3,9 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react"; // Import Lucide React arrow
 import Button from "./Button";
-import AhuseImg from "../assets/project.png";
-import DashboardImg from "../assets/project2.png";
-import EasyRentImg from "../assets/project3.png";
+import AhuseImg from "../assets/Project.png";
+import DashboardImg from '../assets/project2.png'
+import EasyRentImg from '../assets/project3.png'
 
 const portfolioItems = [
   {
@@ -33,6 +33,7 @@ const portfolioItems = [
     link: "https://dribbble.com/",
   },
 ];
+
 
 const Portfolio = () => {
   return (
