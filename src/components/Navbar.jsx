@@ -37,7 +37,7 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <Button variant="outline">Contact Me</Button>
+          <Button variant="outline" className="hidden md:block">Contact Me</Button>
 
           {/* Mobile Menu Toggle */}
           <button
@@ -73,7 +73,9 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <Button variant="outline">Contact Me</Button>
+                <Button variant="outline"
+                className=" block md:hidden "
+                >Contact Me</Button>
               </li>
             </ul>
           </div>
