@@ -42,7 +42,7 @@ const Portfolio = () => {
         <div className="flex justify-between items-center mb-10">
           <div>
             <p className="text-gray-500 font-semibold text-lg">Recent Projects</p>
-            <h2 className="text-5xl font-bold text-gray-900">My Portfolio</h2>
+            <h2 className="text-4xl font-bold text-gray-900">My Portfolio</h2>
           </div>
 
           {/* Visit My Dribbble Button */}
@@ -50,7 +50,7 @@ const Portfolio = () => {
       href="https://dribbble.com/your-profile"
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center gap-3 bg-[#ea4c89] text-white font-bold py-3 px-6 rounded-xl shadow-md transition-all hover:bg-[#d4417a] hover:scale-105"
+      className="flex items-center gap-3 bg-[#E62872] text-white  py-3 px-6 rounded-xl shadow-md transition-all hover:bg-[#d4417a] hover:scale-105"
     >
       <img src={ DribbleIcon} alt="Dribbble Icon" className="w-6 h-6" />
       Visit My Dribbble
