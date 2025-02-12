@@ -48,7 +48,7 @@ export default function Expertise() {
             className=" bg-[#F5F9FF]  p-6 rounded-xl hover:shadow-lg transition transform hover:-translate-y-2"
           >
             {/* Image */}
-            <div className=" bg-white p-3 rounded-lg w-fit mb-4">
+            <div className=" p-3 rounded-lg w-fit mb-4">
               <img src={item.img} alt={item.title} className="w-16 h-16 object-contain" />
             </div>
 
