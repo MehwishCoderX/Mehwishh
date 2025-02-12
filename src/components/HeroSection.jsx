@@ -16,7 +16,8 @@ export default function HeroSection() {
           </p>
           <Button
         variant="filled"
-        className="text-purple-600 border-purple-600 hover:bg-purple-600 hover:text-white"
+        className="mt-8"
+   
       >
         Get In Touch
       </Button>
