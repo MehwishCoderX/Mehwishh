@@ -2,7 +2,7 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa"
 import Logo from '../assets/navlogo.png'
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 py-6">
+    <footer className="bg-[#F5FCFF] py-20">
       <div className="max-w-6xl mx-auto px-4">
      
         <div className="flex justify-between items-center pb-4">
