@@ -39,10 +39,10 @@ const testimonials = [
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="border border-green-700 p-6 rounded-xl transition transform hover:-translate-y-2  bg-[#F5FCFF]"
+              className="border border-[#006B6A] p-6 rounded-xl transition transform hover:-translate-y-2  bg-[#F5FCFF]"
             >
               {/* Star Ratings */}
-              <div className="flex text-green-700 mb-4 text-3xl">
+              <div className="flex text-[#006B6A] mb-4 text-3xl">
                 {"★".repeat(testimonial.rating)}
               </div>
               {/* Review */}
