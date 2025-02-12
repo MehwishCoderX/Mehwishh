@@ -9,6 +9,9 @@ body{
     font-family: "Roboto";
 }
 
+
+/* Navbar */
+
 .nav-link
 {
     @apply block  font-normal hover:text-purple-600 text-xl
