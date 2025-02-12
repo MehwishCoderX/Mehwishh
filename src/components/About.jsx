@@ -7,7 +7,7 @@ export default function About() {
          
           <div className="relative w-1/2">
           
-            <div className="absolute -z-10 left-0 top-0 w-full h-full bg-purple-600 mask-brush"></div>
+            <div className="absolute -z-10 left-0 top-0 w-full h-full  "></div>
   
             <img 
               src={AboutImg}
