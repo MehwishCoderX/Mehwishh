@@ -41,11 +41,11 @@ export default function Expertise() {
       </div>
 
       {/* Expertise Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {expertiseData.map((item, index) => (
           <div
             key={index}
-            className=" p-6 rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-2"
+            className=" bg-[#F5F9FF]  p-6 rounded-xl hover:shadow-lg transition transform hover:-translate-y-2"
           >
             {/* Image */}
             <div className=" bg-white p-3 rounded-lg w-fit mb-4">
