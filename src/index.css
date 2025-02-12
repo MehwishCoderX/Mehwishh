@@ -16,3 +16,12 @@ body{
 {
     @apply block  font-normal hover:text-purple-600 text-xl
 }
+
+ /* contact-form */
+.contact-input
+{
+    @apply w-full p-2 rounded  border border-gray-700 focus:ring-2 focus:ring-purple-500
+}
+.contact-label{
+    @apply block text-sm
+}
