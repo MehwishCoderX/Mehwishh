@@ -31,10 +31,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Divider Line */}
+        
         <hr className="border-gray-300" />
 
-        {/* Bottom Section: Credits and Policy Links */}
+     
         <div className="flex justify-between items-center text-gray-700 text-sm pt-4">
           <p>Made with <span className="text-pink-500">💖</span> by Airdokan</p>
           <div className="space-x-4">
